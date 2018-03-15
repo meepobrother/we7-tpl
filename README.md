@@ -1,14 +1,14 @@
 ## todo
-[] app-header
-[] app-footer
-[] app-audio
-[] app-bmap
-[] app-form-row
-[] app-header
-[] app-input
-[] app-notice
-[] app-page
-[] app-record
-[] app-swiper
-[] app-tabs
-[] app-uploader
+- [] app-header
+- [] app-footer
+- [] app-audio
+- [] app-bmap
+- [] app-form-row
+- [] app-header
+- [] app-input
+- [] app-notice
+- [] app-page
+- [] app-record
+- [] app-swiper
+- [] app-tabs
+- [] app-uploader
