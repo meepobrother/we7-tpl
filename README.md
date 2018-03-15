@@ -9,7 +9,7 @@
 - [] app-notice
 - [x] app-page
 - [] app-record
-- [] app-swiper
+- [x] app-swiper
 - [] app-tabs
 - [x] app-nav
 - [] app-uploader
