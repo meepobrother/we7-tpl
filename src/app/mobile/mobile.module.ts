@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GalleryModule } from 'ngx-weui/gallery';
 import { PickerModule } from 'ngx-weui/picker';
+import { RatingModule } from 'ngx-weui/rating';
+
 
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
@@ -32,6 +34,8 @@ import { AppSelectComponent } from './app-select/app-select.component';
 import { AppRadioComponent } from './app-radio/app-radio.component';
 import { AppCheckboxComponent } from './app-checkbox/app-checkbox.component';
 import { AppAgreeComponent } from './app-agree/app-agree.component';
+import { AppOrderComponent } from './app-order/app-order.component';
+import { AppRatingComponent } from './app-rating/app-rating.component';
 
 export const components = [
   AppHeaderComponent,
@@ -57,20 +61,23 @@ export const components = [
   AppSelectComponent,
   AppRadioComponent,
   AppCheckboxComponent,
-  AppAgreeComponent
+  AppAgreeComponent,
+  AppOrderComponent,
+  AppRatingComponent
 ];
 
 @NgModule({
   imports: [
     CommonModule,
-    SwiperModule.forRoot(),
     RouterModule,
     FormsModule,
     ReactiveFormsModule,
     FormModule,
     UploaderModule.forRoot(),
     GalleryModule.forRoot(),
-    PickerModule.forRoot()
+    PickerModule.forRoot(),
+    RatingModule.forRoot(),
+    SwiperModule.forRoot(),
   ],
   declarations: [
     ...components,
@@ -79,10 +86,22 @@ export const components = [
     AppSelectComponent,
     AppRadioComponent,
     AppCheckboxComponent,
-    AppAgreeComponent
+    AppAgreeComponent,
+    AppOrderComponent,
+    AppRatingComponent
   ],
   exports: [
-    ...components
+    ...components,
+    RatingModule,
+    SwiperModule,
+    PickerModule,
+    GalleryModule,
+    UploaderModule,
+    CommonModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
+    FormModule,
   ]
 })
 export class We7TplMobileModule { }
