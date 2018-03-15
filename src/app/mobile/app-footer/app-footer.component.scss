@@ -4,6 +4,11 @@
     height: 44px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px -2px 7px #ccc;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     .footer-item {
         flex: 1;
         display: flex;

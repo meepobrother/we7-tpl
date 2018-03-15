@@ -36,6 +36,7 @@ import { AppCheckboxComponent } from './app-checkbox/app-checkbox.component';
 import { AppAgreeComponent } from './app-agree/app-agree.component';
 import { AppOrderComponent } from './app-order/app-order.component';
 import { AppRatingComponent } from './app-rating/app-rating.component';
+import { HomeHeaderComponent } from './home-header/home-header.component';
 
 export const components = [
   AppHeaderComponent,
@@ -63,7 +64,8 @@ export const components = [
   AppCheckboxComponent,
   AppAgreeComponent,
   AppOrderComponent,
-  AppRatingComponent
+  AppRatingComponent,
+  HomeHeaderComponent
 ];
 
 @NgModule({
@@ -88,7 +90,8 @@ export const components = [
     AppCheckboxComponent,
     AppAgreeComponent,
     AppOrderComponent,
-    AppRatingComponent
+    AppRatingComponent,
+    HomeHeaderComponent
   ],
   exports: [
     ...components,
