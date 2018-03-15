@@ -1,3 +1,8 @@
-<p>
-  app-input works!
-</p>
+<div class="weui-cell">
+  <div class="weui-cell__hd">
+    <label class="weui-label">{{props.label}}</label>
+  </div>
+  <div class="weui-cell__bd">
+    <input class="weui-input" [type]="props.type" [placeholder]="props.placeholder" [weui-input]="props.input" weui-required>
+  </div>
+</div>

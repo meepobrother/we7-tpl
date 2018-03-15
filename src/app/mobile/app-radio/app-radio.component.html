@@ -1,0 +1,14 @@
+<div class="weui-cells weui-cells_radio" style="margin: 0px;">
+  <label class="weui-cell weui-check__label" for="radio-{{i.id}}" *ngFor="let i of radio">
+    <div class="weui-cell__bd">
+      <p>{{i.name}}</p>
+    </div>
+    <div class="weui-cell__ft">
+      <input type="radio" class="weui-check" [value]="i" id="radio-{{i.id}}">
+      <span class="weui-icon-checked"></span>
+    </div>
+  </label>
+  <a href="javascript:void(0);" (click)="radio.push({ id: radio[radio.length - 1].id + 1, name: 'new radio' })" class="weui-cell weui-cell_link">
+    <div class="weui-cell__bd">添加更多</div>
+  </a>
+</div>

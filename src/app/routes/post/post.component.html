@@ -1,6 +1,43 @@
 <app-page offset="44">
-  <p>
-    post works!
-  </p>
+  <app-form-row>
+    <app-input [props]="{label: '测试', placeholder: '请输入测试', type: 'text'}"></app-input>
+  </app-form-row>
+  <app-form-row>
+    <app-radio></app-radio>
+  </app-form-row>
+  <app-form-row>
+    <app-checkbox></app-checkbox>
+  </app-form-row>
+  <app-form-row>
+    <app-select></app-select>
+  </app-form-row>
+  <app-form-row>
+    <app-textarea></app-textarea>
+  </app-form-row>
+  <app-form-row>
+    <app-vcode></app-vcode>
+  </app-form-row>
+  <app-form-row>
+    <app-picker type="city" [props]="{label: '城市',placeholder: '请选择城市'}"></app-picker>
+  </app-form-row>
+  <app-form-row>
+    <app-picker type="date-ym" [props]="{label: '年月',placeholder: '请选择年月'}"></app-picker>
+  </app-form-row>
+  <app-form-row>
+    <app-picker type="date" [props]="{label: '日期',placeholder: '请选择日期'}"></app-picker>
+  </app-form-row>
+  <app-form-row>
+    <app-picker type="datetime" [props]="{label: '日期时间',placeholder: '请选择日期时间'}"></app-picker>
+  </app-form-row>
+  <app-form-row>
+    <app-picker type="time" [props]="{label: '时间',placeholder: '请选择时间'}"></app-picker>
+  </app-form-row>
+  <app-form-row>
+    <app-uploader></app-uploader>
+  </app-form-row>
+  <app-form-row>
+    <app-locpicker></app-locpicker>
+  </app-form-row>
+  <app-agree></app-agree>
 </app-page>
 <app-footer [props]="footers"></app-footer>

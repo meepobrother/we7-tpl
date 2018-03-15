@@ -1,0 +1,17 @@
+<div class="weui-cells weui-cells_checkbox" style="margin: 0px;">
+    <label class="weui-cell weui-check__label" for="checkbox-{{i}}"
+        *ngFor="let i of checkbox; let index = index">
+        <div class="weui-cell__hd">
+            <input type="checkbox" class="weui-check"
+                [weui-checklist]="res.checkbox" name="radio1" [weui-value]="i" id="checkbox-{{i}}">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>{{i}}</p>
+        </div>
+    </label>
+    <a href="javascript:void(0);" class="weui-cell weui-cell_link"
+        (click)="onAddCheckbox()">
+        <div class="weui-cell__bd">添加更多</div>
+    </a>
+</div>
