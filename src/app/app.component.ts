@@ -8,8 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  tabs: any[] = [{
-    title: '测试1',
-    link: '/app/entry/site/we7_tpl/test1'
-  }];
+  
 }

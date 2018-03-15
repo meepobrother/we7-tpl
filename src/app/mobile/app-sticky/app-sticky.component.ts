@@ -1,9 +1,7 @@
-import { Component, OnInit, Input, HostBinding } from '@angular/core';
+import { Directive, OnInit, Input, HostBinding } from '@angular/core';
 
-@Component({
-  selector: 'app-sticky,[appSticky],[sticky]',
-  templateUrl: './app-sticky.component.html',
-  styleUrls: ['./app-sticky.component.scss']
+@Directive({
+  selector: 'app-sticky,[appSticky],[sticky]'
 })
 export class AppStickyComponent implements OnInit {
   @HostBinding('style.top.px') _top: number = 0;

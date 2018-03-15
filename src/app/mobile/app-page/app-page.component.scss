@@ -1,4 +1,6 @@
+@import "../../../default";
 :host {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    background: #efefef;
 }

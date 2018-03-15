@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { SwiperModule } from 'ngx-weui/swiper';
+import { RouterModule } from '@angular/router';
 
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
@@ -14,6 +16,9 @@ import { AppInputComponent } from './app-input/app-input.component';
 import { AppFormRowComponent } from './app-form-row/app-form-row.component';
 import { AppPageComponent } from './app-page/app-page.component';
 import { AppStickyComponent } from './app-sticky/app-sticky.component';
+import { AppNavComponent } from './app-nav/app-nav.component';
+import { AppGridsComponent } from './app-grids/app-grids.component';
+import { AppBoxComponent } from './app-box/app-box.component';
 
 export const components = [
   AppHeaderComponent,
@@ -28,18 +33,20 @@ export const components = [
   AppInputComponent,
   AppFormRowComponent,
   AppPageComponent,
-  AppStickyComponent
+  AppStickyComponent,
+  AppNavComponent,
+  AppGridsComponent,
+  AppBoxComponent
 ];
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    SwiperModule,
+    RouterModule
   ],
   declarations: [
-    ...components,
-    AppFormRowComponent,
-    AppPageComponent,
-    AppStickyComponent
+    ...components
   ],
   exports: [
     ...components

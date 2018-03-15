@@ -1,3 +1,12 @@
-<p>
-  app-swiper works!
-</p>
+<weui-swiper [options]="{effect: 'fade', spaceBetween: 30, autoplay: 2000}">
+  <div class="swiper-container">
+    <!-- 容器（必选） -->
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" [style.height.px]="height" *ngFor="let i of images">
+        <img src="{{i.url}}">
+      </div>
+    </div>
+    <!-- 分页（可选） -->
+    <div class="swiper-pagination"></div>
+  </div>
+</weui-swiper>

@@ -1,3 +1,4 @@
-<p>
-  app-footer works!
-</p>
+<div class="footer-item" (click)="onItem(item)" [routerLink]="item.link" [queryParams]="item.params" routerLinkActive="active"
+  [class.active]="item.active" *ngFor="let item of props" [style.height.px]="height">
+  <p>{{item.title}}</p>
+</div>

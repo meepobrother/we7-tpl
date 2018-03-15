@@ -220,6 +220,10 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
 
+"@types/swiper@^3.4.6":
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/@types/swiper/-/swiper-3.4.6.tgz#88b26d47f7d9cdc6c563c154e10d449b7018e1b8"
+
 JSONStream@^1.0.3:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.2.tgz#c102371b6ec3a7cf3b847ca00c20bb0fce4c6dea"
@@ -4020,9 +4024,9 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
-meepo-themes@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/meepo-themes/-/meepo-themes-1.0.9.tgz#181b6c51a91b6a40250fc1886f0e13cd030cab1c"
+meepo-themes@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/meepo-themes/-/meepo-themes-1.1.0.tgz#8fd510f9427527dbd9226ac18de360e00dfd5c77"
   dependencies:
     swiper "^4.1.0"
 
@@ -4276,6 +4280,10 @@ neo-async@^2.5.0:
 netmask@~1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
+
+ngx-weui@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/ngx-weui/-/ngx-weui-1.2.2.tgz#5984136f4e8b97de88a17767419f4067e8121949"
 
 no-case@^2.2.0:
   version "2.3.2"
@@ -6255,7 +6263,7 @@ supports-color@^5.1.0, supports-color@^5.2.0, supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-swiper@^4.1.0:
+swiper@^4.1.0, swiper@^4.1.6:
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/swiper/-/swiper-4.1.6.tgz#8e426a741f211a38a3713c8fa0d5c0152c8a6a87"
   dependencies:

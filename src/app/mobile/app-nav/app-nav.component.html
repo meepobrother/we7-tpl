@@ -1,0 +1,1 @@
+<div class="nav-item" *ngFor="let item of props" [routerLink]="item.link" [queryParams]="item.params" [routerLinkActive]="'active'" [class.active]="item.active" (click)="onItem(item)" [style.height.px]="height">{{item.title}}</div>

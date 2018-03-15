@@ -1,0 +1,20 @@
+@import "~meepo-themes/global";
+
+:host {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 44px;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #efefef;
+    .nav-item {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &.active {
+            color: $activeColor;
+        }
+    }
+}

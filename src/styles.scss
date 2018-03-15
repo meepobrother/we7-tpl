@@ -14,3 +14,9 @@ app-root {
 * {
     -webkit-overflow-scrolling: touch;
 }
+
+app-sticky,[sticky],[appSticky] {
+    position: -webkit-sticky;
+    position: sticky;
+    display: block;
+}
