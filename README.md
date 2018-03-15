@@ -12,4 +12,4 @@
 - [] app-swiper
 - [] app-tabs
 - [] app-uploader
-- [√] app-sticky
+- [x]] app-sticky
